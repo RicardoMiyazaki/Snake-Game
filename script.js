@@ -101,7 +101,7 @@ function draw(){
 
     canvasContext.font = "20px Arial"
     canvasContext.fillStyle = "#00ff42"
-    canvasContext.fillText("Score: " + snake.tail.length -1, canvas.width -150,38)
+    canvasContext.fillText("Score: " + (snake.tail.length -1), canvas.width -150,38)
     canvasContext.fillText("Highscore: " + highscore, canvas.width -150,70)
 
     if(!gameOver){
